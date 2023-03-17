@@ -19,6 +19,7 @@ int main(void)
 
 	{
 	if (x != n)
+         ^
 	}
 
 	{
