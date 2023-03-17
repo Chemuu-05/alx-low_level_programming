@@ -4,28 +4,28 @@
 
 /**
  * main - Entry point
- *assign a random number to the variable
+ *print whether the number stored in the variable
  * Return: value 0 (sucess)
  */
+
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-       if (n > 0)
-        {
-	printf("%d is positive\n", n);
-	}
-       else if (n < 0)
+	if (n > 0)
 	{
-	printf("%d is negative\n", n);
+		printf("%d is positive\n", n);
+	}
+	else if (n < 0)
+	{
+		printf("%d is negative\n", n);
 	}
 	else
-		(n == 0)
-
+		(n = 0);
 	{
-	printf("%d is zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
