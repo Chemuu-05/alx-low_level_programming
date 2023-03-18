@@ -5,31 +5,26 @@
 /**
  * main - Entry point
  * prints all possible different combinations of two digits
- * Return: 0 (sucess)
+ * Return:value is 0 (sucess)
  */
-
 int main(void)
 {
-	int n, x;
-
-	for (n = '0'; n < '9'; n++)
+	int n;
+	int x;
+	
+	for (n = 0; n < 10; n++)
 	{
-	for (x = n + 1; x <= '9'; x++)
+	for (x = n + 1; x < 10; x++)
+	{
+		if (n < x && n != x)
+		{
+			putchar(n + '0');
+			putchar(x + '0');
+			putchar(',');
+			putchar(' ');
+		}
 	}
-
-	{
-	if (x != n)
-         ^
-	}
-
-	{
-	putchar(n);
-	putchar(x);
-	if (n == '8' && x == '9')
-	putchar(',');
-	putchar(' ');
 	}
 	putchar('\n');
-
 	return (0);
 }
