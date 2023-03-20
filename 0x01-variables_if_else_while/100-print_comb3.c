@@ -9,21 +9,26 @@
  */
 int main(void)
 {
-	int n;
-	int x;
+	int n, p, q;
 
-	for (n = 0; n < 10; n++)
+	for (n = '0'; n < '9'; n++)
 	{
-	for (x = n + 1; x < 10; x++)
-	{
-		if (n < x && n != x)
+		for (p = n + 1; p <= '9'; p++)
 		{
-			putchar(n + '0');
-			putchar(x + '0');
-			putchar(',');
-			putchar(' ');
+			for (q = p + 1; q <= '9'; q++)
+			{
+				if ((p != n) != q)
+				{
+					putchar(n);
+					putchar(p);
+					putchar(q);
+					if (n == '7' && p == '8')
+						continue;
+					putchar(',');
+					putchar(' ');
+				}
+			}
 		}
-	}
 	}
 	putchar('\n');
 	return (0);
