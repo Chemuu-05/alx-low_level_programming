@@ -5,8 +5,10 @@
  *
  * Return: Always 0.
  */
-int main(void)
+
+int main(voidi)
 {
+
     print_alphabet();
     return (0);
 }
