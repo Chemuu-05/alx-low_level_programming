@@ -3,11 +3,9 @@
 /**
  * print_alphabet - Entry point
  * prints alphabet in lowercase
- * Return: Always 0.
+ * Return: Always void
  */
-
 void print_alphabet(void)
-
 {
 	int start = 'a', end = 'z';
 	{
