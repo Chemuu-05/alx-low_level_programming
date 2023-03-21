@@ -9,7 +9,7 @@
 void print_alphabet(void)
 
 {
-	int start = 97, end = 122;
+	int start = 'a', end = 'z';
 	{
 		while (start <= end)
 		{

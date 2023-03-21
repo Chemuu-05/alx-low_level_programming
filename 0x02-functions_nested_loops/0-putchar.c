@@ -1,14 +1,11 @@
 #include "main.h"
 
 /**
- * _putchar main - main function
- * _putchar -prints character  to the stdout
+ * main - Prints the name _putchar followed by a new line
  * Return: Always 0 (sucess)
  */
-
-int _putchar()
+int main(void)
 {
-	{
 		_putchar('_');
 		_putchar('p');
 		_putchar('u');
@@ -17,7 +14,6 @@ int _putchar()
 		_putchar('h');
 		_putchar('a');
 		_putchar('r');
-	}
-	_putchar('\n');
+	       _putchar('\n');
 	return (0);
 }
