@@ -13,16 +13,16 @@ int main(void)
 
 	for (n = '0'; n < '9'; n++)
 	{
-		for (p = 1; p < '9'; p++)
+		for (p = n + 1; p < '9'; p++)
 		{
-			if (n < p && n != p)
+			if (p != n)
 			{
-				putchar(n + '0');
-				putchar(p + '0');
-				if (n + p != 17)
-				{
-					putchar(',');
-					putchar(' ');
+				putchar(n);
+				putchar(p);
+				if (n == '7' && p  '8')
+					continue;
+				putchar(',');
+				putchar(' ');
 				}
 			}
 		}
