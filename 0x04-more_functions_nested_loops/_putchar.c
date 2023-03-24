@@ -6,7 +6,7 @@
  * @c: The character to print
  * Return: on sucess 1,otherwise 0
  */
-int _putchar(char c)
+int _putchar(int c)
 {
-	return(write(1, &c,1))
+	return(write(1, &c,1));
 }
