@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * print_line - draws a straight line in the terminal.
- * @n: The number of lines to draw
- *
- * Return: empty
- */
-
+  * print_line - Draws a straight line according to parameter
+  * @n: The number of lines to draw
+  *
+  * Return: empty
+  */
 void print_line(int n)
 {
-	if (n <= 0)
+	int x;
+
+	if
+		(n <= 0)
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		int x;
-
 		for (x = 0; x < n; x++)
 		{
 			_putchar(95);
