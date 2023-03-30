@@ -4,17 +4,16 @@
  * _strncat - concatenates two strings.
  * @dest: Destination string
  * @src: Source string
- * @n: Limit of concatenation
+ * @n: Number of characters to append
  * Return: dest.
  */
 
 char *_strncat(char *dest, char *src, int n)
 {
 	int destL = 0;
-	int srcL = 0;
-	int j;
+	int j = 0;
 
-	for (j = 0; dest[j] != '\0'; j++)
+	for (j = 0; dest[destL] != '\0'; j++)
 	{
 		destL++;
 	}
