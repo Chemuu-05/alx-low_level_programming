@@ -10,13 +10,17 @@ int check_prime(int n, int p);
  */
 int is_prime_number(int n)
 {
+	if (n <= 1)
+	{
+		return (1);
+	}
 	return (check_prime(n, 1));
 }
 /**
  * check_prime - Check if number is prime
  * @n: the number to be checked
  * @p: the iteration times
- * Return: 1 for prime or 0 composite
+ * Return: 1 for prime or 0 otherwise
  */
 
 int check_prime(int n, int p)
