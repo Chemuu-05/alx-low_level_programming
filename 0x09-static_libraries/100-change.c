@@ -3,11 +3,11 @@
 
 /**
  * main - prints the minimum number of coins
- * to make change for an amount of money
+ *        to make change for an amount of money
  * @argc: number of arguments to the program
  * @argv: array of pointers to arguments
  * Return: 1 if number of arguments is not exactly one
- * 0 if otherwise
+ *         0 if otherwise
  */
 
 int main(int argc, char *argv[])
