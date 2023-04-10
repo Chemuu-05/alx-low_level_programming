@@ -1,5 +1,1 @@
-<<<<<<< Updated upstream
-My ALX test
-=======
-alx-low_level programming
->>>>>>> Stashed changes
+alx-low_level_programming
