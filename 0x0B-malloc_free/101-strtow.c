@@ -44,5 +44,5 @@ char **strtow(char *str)
 	}
 	s[b] = NULL;
 
-	return  (s);
+	return (NULL);
 }
