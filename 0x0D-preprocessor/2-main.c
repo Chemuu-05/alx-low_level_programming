@@ -1,6 +1,6 @@
 #ifndef _HEADER_
 #define _HEADER_
-#define TEXT "Hello, Holberton"
+#define TEXT "Hello, main"
 #endif
 #include <stdio.h>
 
